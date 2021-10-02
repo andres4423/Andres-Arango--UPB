@@ -1,14 +1,14 @@
-1. Ejercicio 1
+# Ejercicio 1
 def correo(email):
     for a in email:
         if a == "@":
             print("Email valido")
         else:
             print("Email invalido")
-       a
+       
 correo(input("Dame tu correo electronico"))
 
-Solución Andrés Leon:
+#Solución Andrés Leon:
 def validar(email):
     b=a.count("@")
     if b==1:
@@ -35,9 +35,9 @@ else:
     print("Direccion invalida")
 
 #Ejercicio 2
-def sumaDigitos(numero)
-numero=int(input("Ingrese un numero: ")
-    suma=0
+def sumaDigitos(numero):
+    numero=int(input("Ingrese un numero: ")
+suma=0
     for i in range(numero):
         digito=numero%10
         suma=suma+digito
@@ -81,7 +81,7 @@ print("Sumatoria:",sumatoria)
 print("Digitos",sumaDig(sumatoria))
 print("Acaba la operacion")
 
-Ejercicio 4
+#Ejercicio 4
 cond="si"
 
 def primo(num):
@@ -100,7 +100,7 @@ while cond == "si":
     if cond == "no":
         print("hasta luego, vuelva pronto.")
 
-Ejercicio 5
+#Ejercicio 5
 cond="si"
 def frecuencia(numero,digito):
    cantidad=0
@@ -118,7 +118,7 @@ if cond=="si":
 if cond=="no":
     print("vuelve pronto amigo....(saludos desde Tibú)")
 
-Ejercicio 6
+#Ejercicio 6
 
 def factorial(numero):
    f=1
@@ -135,7 +135,7 @@ while num!=-1:
 else: 
     print("Se leyeron",cantidad,"números ingresados")
 
-Ejercicio 7:
+#Ejercicio 7:
 def sumaDigitos(numero):
     suma=0
     for i in range(0,numero):
@@ -158,7 +158,7 @@ while numero>=0:
           else:
             print("el numero ingresado es incorrecto")
 
-Ejercicio 8:
+#Ejercicio 8:
 def primo(num): 
    for i in range(2,num): 
        if num%i==0:            
@@ -208,7 +208,7 @@ while agregar == "si":
         break 
 
 
-Ejercicio 9:
+#Ejercicio 9:
 
 y=2
 def f(num):
@@ -251,7 +251,7 @@ if lenUltimaPalabra(cadena):
 
 
 
-Ejercicio aparte-> Crear una función para sumar los valores recibidos de tipo numérico, utilizando argumentos variables *args como parámetro de la función y regresar como resultado la suma de todos los valores pasados como argumentos.
+#Ejercicio aparte-> Crear una función para sumar los valores recibidos de tipo numérico, utilizando argumentos variables *args como parámetro de la función y regresar como resultado la suma de todos los valores pasados como argumentos.
 def funcion(*nums):
     suma=0
     for i in nums:
