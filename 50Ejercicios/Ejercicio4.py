@@ -1,7 +1,0 @@
-num1=int(input("Dame un numero"))
-num2=int(input("Dame otro numero"))
-print("La suma es", num1+num2)
-print("La resta es", num1-num2)
-print("La multiplicacion es", num1*num2)
-print("La división es", num1/num2)
-print("El residuo es", num1%num2)

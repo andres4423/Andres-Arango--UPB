@@ -1,6 +1,0 @@
-venta=int(input("Valor de la venta: "))
-iva=int(venta*0.19)
-valorTotal=int(venta+iva)
-print("El valor de la venta original es: ",venta)
-print("El valor del iva: ",iva)
-print("El valor total de la venta es: ",valorTotal)
